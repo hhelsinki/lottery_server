@@ -10,7 +10,7 @@ const {generatePrice} = require('./services/gen_price.js')
 app.use(cors());
 
 //route
-app.get('/price', generatePrice)
+app.get('/api/price', generatePrice)
 
 //port
 app.listen(PORT, () => {
